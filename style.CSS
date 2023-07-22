@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B7BBBD;
+    position: relative;
+  }
+
+  .topnav-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  li {
+    float: left;
+    border: 1px solid #bbb;
+    background-color:rgba(57, 133, 87, 0.8);
+    border-radius: 10px;
+  }
+
+
+  
+  li a {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #A5DCE4;
+  }
+
+
+  .header {
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+    background: #F7F7F8;
+    color: #000000;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+
+.Flex-container {
+    background-color: F7F7F8;
+    padding: 25px 25px 25px 10px;
+}
+
+  /* Make sure that padding behaves as expected */
+* {
+    box-sizing:border-box;
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  height: fit-content;
+  
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: rgb(0, 0, 0); /* White text color */
+}
+
+
+/* The actual skill bar */
+.html {
+width: 90%;
+background-color: #398557;
+border-radius: 5px;
+font-weight: bold;
+} 
+
+.css {width: 80%;
+     background-color: #46A46C;
+     border-radius: 5px;
+     font-weight: bold;
+} 
+
+.js {width: 65%;
+     background-color: #79C698;
+     border-radius: 5px;
+     font-weight: bold;
+} 
+
+.sql {width: 60%;
+     background-color: #B0DDC2;
+     border-radius: 5px;
+     font-weight: bold;
+}  
+
+
+table {
+    background-color: #F7F7F8;
+    border: transparent;
+    border-collapse: collapse;
+    position:center;
+    float:left;
+    width: 951px;
+  }
+  
+  th, td {
+    padding: 45px 100px 25px 25px;
+    display:inline-block;
+    position:center;
+    float:left;
+  }
+ 
+
+
+.Backend-table-head {
+    font-size: 26px;
+    padding: 25px 100px 25px 25px;
+    display:inline-block;
+    position:center;
+    float:left;
+  }
+
+
+.Backend-table .Frontend-table{
+    border: transparent;
+    border-collapse: collapse;
+    display: inline;
+    position: center;
+    float: right;
+   
+}
+
+
+.footer-disclaimer {
+  font-size: small;
+  text-align: center;
+}
+
+.footer-content {
+background-color: #B7BBBD;
+width: 100%;
+display: block;
+padding: 10px;
+}
+
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-icons img {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+}
+
