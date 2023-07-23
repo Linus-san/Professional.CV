@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('Background.jpg');
+    opacity: 0.9;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0px 0px 50px 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+    
+  }
+
+  .topnav-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  p {
+    padding-top: 30px;
+    letter-spacing: 2px;
+    z-index:1;
+  }
+/* 
+  h5{
+    width: 100%;
+    height: max-content;
+    position:absolute;
+    z-index:0;
+    background-image: url('Background.jpg');
+    opacity: 0.2;
+}
+*/
+
+  
+
+  li {
+    float: left;
+    letter-spacing: 2px;
+    background-color:rgba(57, 133, 87, 1.0;);
+    padding-right: 1px;
+ 
+  }
+
+  
+  li a {
+    display: block;
+    color: #000000;
+    background-color:rgba(57, 133, 87, 0.8);
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    text-decoration: none;
+    border: 5px solid transparent;
+    border-radius: 5px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #008b38;
+    
+  }
+
+
+  .header {
+    padding: 10px 0px 25px 0px;
+    text-align: center;
+    background: #F7F7F8;
+    color: #000000;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+
+.Flex-container {
+    background-color: #F7F7F8;
+    padding: 25px 25px 25px 10px;
+    display: flex;
+    position: relative;
+}
+
+
+  /* Make sure that padding behaves as expected */
+* {
+    box-sizing:border-box;
+}
+
+/* Container for skill bars */
+.container {
+  width: 50%; /* half width */
+  height: 20px;
+  background-color: #fc4c4c; /* Scale background */
+  border-radius: 5px; /* Rounded corners */
+  letter-spacing: 2px;
+  margin-right: 25px;
+  padding: 15px 0px 0px 0px;
+}
+
+.text-skill {
+font-weight: 800;
+text-align: center;
+font-size: 20px;
+letter-spacing: 2px;
+background-color: #B0DDC2;
+border-radius: 5px;
+padding: 0.1px 0px 0.1px 0px;
+letter-spacing: 2px;
+}
+
+
+
+/* The actual skill bar */
+.html {
+width: 70%;
+background-color: #398557;
+border-radius: 5px;
+font-weight: bold;
+
+}
+
+.css {width: 80%;
+     background-color: #46A46C;
+     border-radius: 5px;
+     font-weight: bold;
+} 
+
+.js {width: 55%;
+     background-color: #79C698;
+     border-radius: 5px;
+     font-weight: bold;
+} 
+
+
+
+table {
+    background-color: #F7F7F8;
+    border: transparent;
+    border-collapse: collapse;
+    position:center;
+    float:left;
+    width: 951px;
+  }
+  
+  th, td {
+    padding: 25px 100px 25px 25px;
+    display:inline-block;
+    position:center;
+    float:left;
+  }
+ 
+  tr:nth-child(even) {
+    
+    background-color: rgb(121, 198, 152, 0.5);
+  }
+
+.Backend-table-head {
+    font-size: 26px;
+    padding: 25px 100px 25px 25px;
+    display:inline-block;
+    position:center;
+    float:left;
+  }
+
+
+.Backend-table .Frontend-table{
+    border: transparent;
+    border-collapse: collapse;
+    display: inline;
+    position: center;
+    float: right;
+}
+
+
+
+button {
+   color: #01351f;
+   background-color: #B0DDC2;
+   border-radius: 20px;
+   border-color: #01351f;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  font-weight: 550;
+}
+
+button:hover {
+  background-color: #04ca53;
+  color: #000000;
+  border-color: #01351f;
+}
+  
+.footer-disclaimer {
+  letter-spacing: 0.2;
+  text-align: center;
+  color: rgb(123, 255, 105);
+}
+
+.footer-content {
+background-color: #01351f;
+width: 100%;
+display: block;
+padding: 25px 0px 10px 0px;
+position: flex;
+}
+
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-icons img {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+}
+
+
+
+/* Media Queries - WIP*/
+
+@media screen and ( min-width: 200px ) {
+  body {
+    background-color: #111111 ;
+  }
+}
+@media screen and ( min-width: 300px ) {
+  body {
+    background-color: #222222 ;
+  }
+}
+@media screen and ( min-width: 400px ) 
